@@ -1,0 +1,75 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: rgb(83, 83, 83);
+}
+
+header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+    margin-right: 8px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    margin-top: -60px;
+}
+
+.logo {
+    display: flex;
+    color: gray;
+}
+
+header p {
+    font-weight: 100;
+}
+
+header p strong {
+    color: black;
+}
+
+.navbar {
+    display: inline-flex;
+    margin-right: 24px;
+}
+
+.navitem {
+    margin: 8px;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgb(192, 191, 191);
+    width: 100%;
+
+}
+
+.banner img {
+    width: 60%;
+    margin: 24px;
+}
+
+.bannercontent {
+    margin-right: 8%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+#button {
+    font-size: 18px;
+    height: 25px;
+    width: 320px;
+    color: rgb(192, 191, 191);
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
