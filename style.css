@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     color: rgb(83, 83, 83);
+    box-sizing: border-box;
 }
 
 header {
@@ -72,4 +73,98 @@ a:visited {
     background-color: rgb(83, 83, 83);
     text-align: center;
     padding: 8px 0 8px 0;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.infoleft {
+    width: 56%;
+    margin: 32px 24px 32px 24px;
+}
+
+.infoleft img {
+    width: 100%;
+}
+
+.inforight {
+    width: 40%;
+    
+}   
+
+.orientation,
+.campus,
+.lecture {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(197, 196, 196);
+    border-width: 1px;
+}
+
+.orientation:hover,
+.campus:hover,
+.lecture:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.inforight img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.infotext {
+    width: 65%;
+    margin: 10px;
+}
+
+.infotext p {
+    margin-top: 8px;
+}
+
+.infotext a {
+    color: rgb(94, 166, 248);
+}
+
+.learning {
+    background-color: rgb(224, 223, 223);
+}
+
+.learning h1 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 56px 16px 56px;
+    justify-content: center;
+}
+
+.courses img {
+    width: 400px;
+    height: auto;
+}
+
+.course1,
+.course2,
+.course3,
+.course4,
+.course5,
+.course6 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 16px;
+    background-color: white;
+}
+
+.classtext {
+    padding: 16px;
 }
